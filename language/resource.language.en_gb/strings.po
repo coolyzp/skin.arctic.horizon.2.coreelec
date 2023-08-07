@@ -1944,3 +1944,18 @@ msgstr ""
 msgctxt "#31386"
 msgid "Unwatched only"
 msgstr ""
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32100"
+msgid "Display mode"
+msgstr ""
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32101"
+msgid "Dynamic Range & Color Space"
+msgstr ""
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32102"
+msgid "SoC Temp"
+msgstr ""

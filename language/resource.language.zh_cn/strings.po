@@ -1954,3 +1954,18 @@ msgstr "媒体信息海报"
 msgctxt "#31385"
 msgid "Custom genre icon folder"
 msgstr "自定义风格图标文件夹"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32100"
+msgid "Display mode"
+msgstr "显示模式"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32101"
+msgid "Dynamic Range & Color Space"
+msgstr "动态范围&色彩空间"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#32102"
+msgid "SoC Temp"
+msgstr "温度"

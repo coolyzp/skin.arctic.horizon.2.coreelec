@@ -85,7 +85,15 @@
                 </control>
 
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
+                    <align>right</align>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>[B]$LOCALIZE[32101][/B][CR]$INFO[Player.Process(amlogic.eoft_gamut)]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>60</height>
                     <align>right</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
@@ -93,15 +101,15 @@
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
                     <align>right</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(pixformat),[B]$LOCALIZE[31217][/B][CR]]</label>
+                    <label>$INFO[Player.Process(amlogic.pixformat),[B]$LOCALIZE[31217][/B][CR]]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
                     <align>right</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
@@ -177,27 +185,35 @@
                 </control>
 
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(videowidth),[B]$LOCALIZE[38031][/B][CR],x]$INFO[Player.Process(videoheight),, $LOCALIZE[31261]]$INFO[Player.Process(videodar),$COMMA , $LOCALIZE[31260]]$INFO[Player.Process(videofps),$COMMA , $LOCALIZE[31259]]</label>
+                    <label>[B]$LOCALIZE[32100][/B][CR]$INFO[Player.Process(amlogic.displaymode)]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>[B]$LOCALIZE[460][/B][CR]$INFO[Player.Process(audiochannels),,$COMMA ]$INFO[Player.Process(audiodecoder)]$INFO[Player.Process(audiobitspersample),$COMMA , $LOCALIZE[31263]]$INFO[Player.Process(audiosamplerate),$COMMA , $LOCALIZE[31262]]</label>
+                    <label>$INFO[Player.Process(videowidth),[B]$LOCALIZE[38031][/B][CR],x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , $LOCALIZE[31260]]$INFO[Player.Process(videofps),$COMMA , $LOCALIZE[31259]]$INFO[VideoPlayer.VideoBitrate,$COMMA , kb/s]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>80</height>
+                    <height>60</height>
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[System.Memory(used.percent),[B]$LOCALIZE[31256][/B][CR]$LOCALIZE[31257]: ,  ]$INFO[System.CpuUsage,$LOCALIZE[31258]: ,]</label>
+                    <label>[B]$LOCALIZE[460][/B][CR]$INFO[Player.Process(audiodecoder)]$INFO[VideoPlayer.AudioCodec,$COMMA ]$INFO[VideoPlayer.AudioChannels,$COMMA ,ch]$INFO[Player.Process(audiosamplerate),$COMMA ,Hz]$INFO[VideoPlayer.AudioBitrate,$COMMA , kb/s]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>60</height>
+                    <align>left</align>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>$INFO[System.Memory(used.percent),[B]$LOCALIZE[31256][/B][CR]$LOCALIZE[31257]: ,  ]$INFO[System.CpuUsage,$LOCALIZE[31258]: ,  ]$INFO[System.CPUTemperature,$LOCALIZE[32102]: ]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
             </control>
