@@ -205,7 +205,7 @@
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>[B]$LOCALIZE[460][/B][CR]$INFO[Player.Process(audiodecoder)]$INFO[VideoPlayer.AudioCodec,$COMMA ]$INFO[VideoPlayer.AudioChannels,$COMMA ,ch]$INFO[Player.Process(audiosamplerate),$COMMA ,Hz]$INFO[VideoPlayer.AudioBitrate,$COMMA , kb/s]</label>
+                    <label>[B]$LOCALIZE[460][/B][CR]$INFO[Player.Process(audiodecoder)]$INFO[Player.Process(audiosamplerate),$COMMA ,Hz]$INFO[VideoPlayer.AudioBitrate,$COMMA , kb/s]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
