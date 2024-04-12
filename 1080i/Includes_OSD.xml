@@ -635,7 +635,7 @@
                     <param name="basewidth">48</param>
                     <param name="iconwidth">80</param>
                     <param name="iconheight">56</param>
-                    <param name="visible">!String.IsEmpty(VideoPlayer.HdrType)</param>
+                    <param name="visible">!String.IsEmpty(VideoPlayer.HdrType) + !String.IsEqual(VideoPlayer.HdrType,sdr)</param>
                 </include>
 
             </control>

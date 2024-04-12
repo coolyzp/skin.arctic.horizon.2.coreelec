@@ -35,6 +35,7 @@
                 <right>grid_x04</right>
                 <itemgap>10</itemgap>
                 <orientation>vertical</orientation>
+                <align>right</align>
                 <control type="label">
                     <height>80</height>
                     <align>right</align>
@@ -89,7 +90,7 @@
                     <align>right</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>[B]$LOCALIZE[32101][/B][CR]$INFO[Player.Process(amlogic.eoft_gamut)]</label>
+                    <label>$INFO[Player.Process(amlogic.eoft_gamut),[B]$LOCALIZE[32101][/B][CR]]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
@@ -123,6 +124,7 @@
                 <right>grid_x04</right>
                 <itemgap>10</itemgap>
                 <orientation>vertical</orientation>
+                <align>left</align>
                 <control type="label">
                     <height>80</height>
                     <align>left</align>
@@ -189,7 +191,7 @@
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>[B]$LOCALIZE[32100][/B][CR]$INFO[Player.Process(amlogic.displaymode)]</label>
+                    <label>$INFO[Player.Process(amlogic.displaymode),[B]$LOCALIZE[32100][/B][CR]]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
@@ -197,7 +199,7 @@
                     <align>left</align>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(videowidth),[B]$LOCALIZE[38031][/B][CR],x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , $LOCALIZE[31260]]$INFO[Player.Process(videofps),$COMMA , $LOCALIZE[31259]]$INFO[VideoPlayer.VideoBitrate,$COMMA , kb/s]</label>
+                    <label>$INFO[Player.Process(videowidth),[B]$LOCALIZE[38031][/B][CR],x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , $LOCALIZE[31260]]$INFO[Player.Process(videofps),$COMMA , $LOCALIZE[31259]]$INFO[VideoPlayer.VideoBitrate,$COMMA , kb/s]$INFO[VideoPlayer.HdrType,$COMMA ]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
