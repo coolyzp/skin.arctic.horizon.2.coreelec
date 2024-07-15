@@ -245,6 +245,15 @@
                         <onclick>ActivateWindow(osdvideosettings)</onclick>
                         <onup>SetFocus(7800)</onup>
                     </include>
+                    <include content="OSD_Button">
+                        <param name="autoclose" value="true" />
+                        <param name="visible" value="true" />
+                        <param name="icon" value="special://skin/extras/icons/settings.png" />
+                        <param name="visible" value="true" />
+                        <param name="id" value="7000" />
+                        <param name="groupid" value="7099" />
+                        <onclick condition="Player.HasResolutions">PlayerResolutionSelect</onclick>
+                    </include>
                 </control>
 
                 <!-- Audio Tracks -->

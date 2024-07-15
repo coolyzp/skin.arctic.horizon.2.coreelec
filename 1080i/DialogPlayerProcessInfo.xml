@@ -35,7 +35,6 @@
                 <right>grid_x04</right>
                 <itemgap>10</itemgap>
                 <orientation>vertical</orientation>
-                <align>right</align>
                 <control type="label">
                     <height>80</height>
                     <align>right</align>
@@ -86,35 +85,75 @@
                 </control>
 
                 <control type="label">
-                    <height>60</height>
+                    <height>30</height>
                     <align>right</align>
+                    <aligny>center</aligny>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(amlogic.eoft_gamut),[B]$LOCALIZE[32101][/B][CR]]</label>
+                    <label>[B]$LOCALIZE[32101][/B]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>60</height>
+                    <height>15</height>
                     <align>right</align>
+                    <aligny>center</aligny>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(videodecoder),[B]$LOCALIZE[31216][/B][CR]]$VAR[Label_VideoHWDecoder, (,)]</label>
+                    <label>$INFO[Player.Process(amlogic.eoft_gamut)]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>60</height>
+                    <height>30</height>
                     <align>right</align>
+                    <aligny>center</aligny>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(amlogic.pixformat),[B]$LOCALIZE[31217][/B][CR]]</label>
+                    <label>[B]$LOCALIZE[31216][/B]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="label">
-                    <height>60</height>
+                    <height>15</height>
                     <align>right</align>
+                    <aligny>center</aligny>
                     <font>font_mini</font>
                     <textcolor>dialog_fg_70</textcolor>
-                    <label>$INFO[Player.Process(deintmethod),[B]$LOCALIZE[16038][/B][CR]]</label>
+                    <label>$INFO[Player.Process(videodecoder)]$VAR[Label_VideoHWDecoder, (,)]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>30</height>
+                    <align>right</align>
+                    <aligny>center</aligny>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>[B]$LOCALIZE[31217][/B]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>15</height>
+                    <align>right</align>
+                    <aligny>center</aligny>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>$INFO[Player.Process(amlogic.pixformat)]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>30</height>
+                    <align>right</align>
+                    <aligny>center</aligny>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>[B]$LOCALIZE[16038][/B]</label>
+                    <visible>!VideoPlayer.Content(livetv)</visible>
+                </control>
+                <control type="label">
+                    <height>15</height>
+                    <align>right</align>
+                    <aligny>center</aligny>
+                    <font>font_mini</font>
+                    <textcolor>dialog_fg_70</textcolor>
+                    <label>$INFO[Player.Process(deintmethod)]</label>
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
             </control>
@@ -124,7 +163,6 @@
                 <right>grid_x04</right>
                 <itemgap>10</itemgap>
                 <orientation>vertical</orientation>
-                <align>left</align>
                 <control type="label">
                     <height>80</height>
                     <align>left</align>
