@@ -1952,7 +1952,7 @@ msgstr ""
 
 #: /1080i/DialogPlayerProcessInfo.xml
 msgctxt "#32101"
-msgid "Dynamic Range & Color Space"
+msgid "EOTF & Gamut"
 msgstr ""
 
 #: /1080i/DialogPlayerProcessInfo.xml

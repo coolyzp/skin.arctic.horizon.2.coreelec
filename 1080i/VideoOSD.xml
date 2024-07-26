@@ -173,6 +173,16 @@
                     <include content="OSD_Button">
                         <param name="autoclose" value="true" />
                         <param name="visible" value="true" />
+                        <param name="icon" value="special://skin/extras/icons/home.png" />
+                        <param name="visible" value="true" />
+                        <param name="id" value="7100" />
+                        <param name="groupid" value="7199" />
+                        <onclick condition="VideoPlayer.HasMenu">PlayerControl(ShowVideoMenu)</onclick>
+                    </include>
+
+                    <include content="OSD_Button">
+                        <param name="autoclose" value="true" />
+                        <param name="visible" value="true" />
                         <param name="icon" value="special://skin/extras/icons/info2.png" />
                         <param name="visible" value="true" />
                         <param name="id" value="6500" />
